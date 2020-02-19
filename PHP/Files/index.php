@@ -1,1 +1,1 @@
-<?php echo('olá, mundo');?>
+<?php echo('what the fuck');?>
