@@ -1,9 +1,4 @@
 <?php 
-    
-    $page ='tickets';
-    include '../_includes/header.php';
-
-
 
     require_once 'HTTP/Request2.php';
     $request = new HTTP_Request2();
