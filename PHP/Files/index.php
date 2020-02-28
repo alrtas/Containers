@@ -30,7 +30,5 @@
       echo 'Error: ' . $e->getMessage();
     }
     
-
-   include '../_includes/footer.php';
 ?>
 
