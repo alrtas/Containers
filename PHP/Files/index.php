@@ -1,5 +1,5 @@
 <?php 
-    <?php
+    
     $page ='tickets';
     include '../_includes/header.php';
 
@@ -38,8 +38,4 @@
 
    include '../_includes/footer.php';
 ?>
-
-   
-    
-    ?>
 
