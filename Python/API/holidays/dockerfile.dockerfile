@@ -171,5 +171,7 @@ ADD getHolidays.py /
 
 RUN pip install flask \
     pip install requests
+    python-dev
 
 CMD ["python3 getHolidays.py"]
+CMD ["app.py"]
