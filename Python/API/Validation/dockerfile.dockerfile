@@ -9,7 +9,8 @@ RUN apt-get update -y && \
 
 WORKDIR /app
 
-RUN pip install flask
+RUN pip install --upgrade pip \
+	pip install flask
 
 COPY . /app
 
