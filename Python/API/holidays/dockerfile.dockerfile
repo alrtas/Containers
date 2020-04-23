@@ -1,3 +1,4 @@
+
 FROM debian:buster-slim
 
 # ensure local python is preferred over distribution python
@@ -167,11 +168,5 @@ RUN set -ex; \
 		\) -exec rm -rf '{}' +; \
 	rm -f get-pip.py
 
-ADD getHolidays.py /
-
 RUN pip install flask \
     pip install requests
-    python-dev
-
-CMD ["python3 getHolidays.py"]
-CMD ["app.py"]
