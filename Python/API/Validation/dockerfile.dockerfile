@@ -13,4 +13,4 @@ COPY . /app
 
 ENTRYPOINT [ "python" ]
 
-CMD [ "sudo app.py" ]
+CMD [ "sudo python3 app.py" ]
