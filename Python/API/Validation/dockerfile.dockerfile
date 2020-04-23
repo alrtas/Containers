@@ -12,7 +12,7 @@ RUN pip install --upgrade pip \
 
 COPY . /app
 
-EXPOSE 80
+EXPOSE 8080
 
 ENTRYPOINT ["python3"]
 
