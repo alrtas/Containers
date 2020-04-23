@@ -1,11 +1,8 @@
 FROM ubuntu:16.04
 
-MAINTANER Your Name "youremail@domain.tld"
+MAINTANER Thiago Alberto "thiago.alberto@intelbras.com.br"
 
-RUN apt-get update -y && \
-    apt-get install -y python-pip python-dev
-
-# We copy just the requirements.txt first to leverage Docker cache
+RUN python-pip python-dev
 
 WORKDIR /app
 
