@@ -1,3 +1,4 @@
+<script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
 <script>
     (function () {
         window.onload = function () {
