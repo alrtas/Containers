@@ -43,7 +43,7 @@
         window.onload = function () {
           var blipClient = new BlipChat()
           .withTarget("chat")
-          .withCustomStyle("div { height: 1000; }")
+          .withCustomStyle("div { height: 1000px; }")
           .withAppKey('Y2FsbGNlbnRlcmludGVsYnJhczo4NjY2YmVlNS04Y2FkLTQ3NTgtODc4NS1jNDNmZGJjNTQ4NzM=')
           .withButton({"color":"#474747","icon":""})
           .withEventHandler(BlipChat.CREATE_ACCOUNT_EVENT, function () {
