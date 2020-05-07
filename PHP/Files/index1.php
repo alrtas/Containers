@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@alrtas 
-alrtas
-/
-Containers
-1
-00
- Code
- Issues 0
- Pull requests 1 Actions
- Projects 0
- Wiki
- Security 1
- Insights
- Settings
-Containers/PHP/Files/index1.php
-@alrtas alrtas Update index1.php
-f90c668 12 minutes ago
-We found potential security vulnerabilities in your dependencies.
-Only the owner of this repository can see this message.
-
-65 lines (52 sloc)  2.42 KB
-  
 <!doctype html>
 <html lang="en">
   <head>
