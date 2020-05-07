@@ -12,8 +12,7 @@
     
         <div class="col-md-4 col-sm-5 mx-3 my-3" >
                 <div class="card bg-white text-center border-dark">
-                    <div class="card-body" id="chat">
-                    </div>
+                    <div class="card-body" id="chat"></div>
                     </div>
                 </div>
         </div>  
@@ -34,8 +33,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
-</html>
-
 <script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
 <script>
     (function () {
@@ -57,3 +54,6 @@
         }
     })();
 </script>
+</html>
+
+
