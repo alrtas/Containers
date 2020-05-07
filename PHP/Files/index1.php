@@ -20,7 +20,7 @@
       
       
         <div class="col-md-4 col-sm-5 mx-3 my-3">
-                <div class="card bg-white text-center border-dark h-1000 id="chat "">
+                <div class="card bg-white text-center border-dark h-1000" id="chat">
                 </div>
         </div>  
       
