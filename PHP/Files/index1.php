@@ -19,11 +19,17 @@
       
       
       
-        <div class="col-md-4 col-sm-5 mx-3 my-3">
-                <div class="card bg-white text-center border-dark h-1000" id="chat">
+      <div class="container-fluid content-row">
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                <div class="card h-100" id="chat">
+                    
                 </div>
-        </div>  
-      
+            </div>
+            … all the other cards … 
+        </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
