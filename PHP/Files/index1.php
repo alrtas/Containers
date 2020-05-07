@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="col-sm-6 col-lg-6">
-                <div class="card h-auto w-auto" id="chat">
+                <div class="card h-auto w-auto bg-info h-100" id="chat">
                 </div>
             </div>
         </div>
