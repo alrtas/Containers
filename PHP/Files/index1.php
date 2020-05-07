@@ -19,9 +19,9 @@
       
       
       
-      <div class="container-fluid content-row h-auto w-auto">
-        <div class="row h-auto w-auto">
-            <div class="col-sm-11 col-lg-11 h-auto w-auto">
+      <div class="container-fluid content-row">
+        <div class="row ">
+            <div class="col-sm-11 col-lg-11">
                 <div class="card h-auto w-auto" id="chat">
                     
                 </div>
@@ -42,7 +42,7 @@
         window.onload = function () {
           var blipClient = new BlipChat()
           .withTarget("chat")
-          .withCustomStyle("div { min-height: 1000px; width:200px; }")
+          .withCustomStyle("div { min-height: 100%; width:50%; }")
           .withAppKey('Y2FsbGNlbnRlcmludGVsYnJhczo4NjY2YmVlNS04Y2FkLTQ3NTgtODc4NS1jNDNmZGJjNTQ4NzM=')
           .withButton({"color":"#474747","icon":""})
           .withEventHandler(BlipChat.CREATE_ACCOUNT_EVENT, function () {
