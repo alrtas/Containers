@@ -19,14 +19,13 @@
       
       
       
-      <div class="container-fluid content-row">
-        <div class="row">
-            <div class="col-sm-12 col-lg-6">
-                <div class="card" id="chat">
+      <div class="container-fluid content-row h-auto w-auto">
+        <div class="row h-auto w-auto">
+            <div class="col-sm-11 col-lg-11 h-auto w-auto">
+                <div class="card h-auto w-auto" id="chat">
                     
                 </div>
             </div>
-            … all the other cards … 
         </div>
     </div>
 
