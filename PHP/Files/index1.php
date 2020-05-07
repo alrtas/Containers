@@ -8,39 +8,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Hello, world!</title>
     
-    
+    <style>
+        html, body {
+          height: 100%;
+          margin: 0;
+        }
+        
+        .full-height {
+          height: 100%;
+        }
+    </style>
     
       
   </head>
   <body>
-    <h1>Hello, world!</h1>
       
-      
-      
-      <div class="container-fluid content-row">
-        <div class="row ">
-            <div class="col-sm-5 col-lg-5">
-                <div class="card" style="height: 100%;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body" id="chat">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-5 col-lg-5"></div>
-                <div class="card" style="height: 100%;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body bg-info">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      <div class="full-height" id="chat"></div>
+       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
