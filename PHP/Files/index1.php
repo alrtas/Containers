@@ -1,13 +1,41 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@alrtas 
+alrtas
+/
+Containers
+1
+00
+ Code
+ Issues 0
+ Pull requests 1 Actions
+ Projects 0
+ Wiki
+ Security 1
+ Insights
+ Settings
+Containers/PHP/Files/index1.php
+@alrtas alrtas Update index1.php
+f90c668 12 minutes ago
+We found potential security vulnerabilities in your dependencies.
+Only the owner of this repository can see this message.
+
+65 lines (52 sloc)  2.42 KB
+  
 <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <title>Hello, world!</title>
     
     
@@ -21,18 +49,28 @@
       
       <div class="container-fluid content-row">
         <div class="row ">
-            <div class="col-sm-6 col-lg-6">
-                <div class="card h-auto w-auto" id="chat">
+            <div class="col-sm-5 col-lg-5">
+                <div class="card" style="height: 100%;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body" id="chat">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-6">
-                <div class="card h-auto w-auto bg-info h-100" id="chat">
+            <div class="col-sm-5 col-lg-5"></div>
+                <div class="card" style="height: 100%;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body bg-info">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -61,5 +99,3 @@
     })();
 </script>
 </html>
-
-
