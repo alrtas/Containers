@@ -38,7 +38,7 @@
           var blipClient = new BlipChat()
           .withTarget("chat")
           .withAppKey('cG9zdmVuZGFpbnRlbGJyYXMxOmViN2RjMmI2LTk2MjktNGE1OS1hNzYzLTkwZDk5NzIyZDFjOA==')
-          .withButton({"color":"#555555","icon":""})
+          .withButton({"color":"#555555","icon":"https://s3-sa-east-1.amazonaws.com/msging.net/Services/Images/9c66a33c-5d94-4c98-82de-4fb434c2fb1f"})
           .withEventHandler(BlipChat.CREATE_ACCOUNT_EVENT, function () {
               blipClient.sendMessage({
                   "type": "application/vnd.lime.chatstate+json",
