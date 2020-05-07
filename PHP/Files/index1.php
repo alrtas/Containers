@@ -22,7 +22,7 @@
       <div class="container-fluid content-row">
         <div class="row">
             <div class="col-sm-12 col-lg-6">
-                <div class="card h-100" id="chat">
+                <div class="card" id="chat">
                     
                 </div>
             </div>
@@ -43,7 +43,7 @@
         window.onload = function () {
           var blipClient = new BlipChat()
           .withTarget("chat")
-          .withCustomStyle("div { height: 1000px; width:1000px; }")
+          .withCustomStyle("div { min-height: 1000px; width:200px; }")
           .withAppKey('Y2FsbGNlbnRlcmludGVsYnJhczo4NjY2YmVlNS04Y2FkLTQ3NTgtODc4NS1jNDNmZGJjNTQ4NzM=')
           .withButton({"color":"#474747","icon":""})
           .withEventHandler(BlipChat.CREATE_ACCOUNT_EVENT, function () {
