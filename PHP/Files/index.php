@@ -147,7 +147,7 @@ a, a:hover, a:focus {
               blipClient.sendMessage({
                   "type": "application/vnd.lime.chatstate+json",
                   "content": {
-                    "state": "starting",
+                    "state": "openshift",
                     "channel" : "openShift"
                   }
               });
